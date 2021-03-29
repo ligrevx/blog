@@ -1,0 +1,63 @@
+System:    Kernel: 5.4.0-65-generic x86_64 bits: 64 compiler: gcc v: 9.3.0 Desktop: Cinnamon 4.8.6 
+           wm: muffin dm: LightDM Distro: Linux Mint 20.1 Ulyssa base: Ubuntu 20.04 focal 
+Machine:   Type: Desktop Mobo: Gigabyte model: Z170X-Gaming 3 v: x.x serial: <filter> 
+           UEFI [Legacy]: American Megatrends v: F6 date: 03/01/2016 
+CPU:       Topology: Quad Core model: Intel Core i5-6600K bits: 64 type: MCP arch: Skylake-S 
+           rev: 3 L2 cache: 6144 KiB 
+           flags: avx avx2 lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx bogomips: 27999 
+           Speed: 3715 MHz min/max: 800/3900 MHz Core speeds (MHz): 1: 3740 2: 3762 3: 3715 
+           4: 3866 
+Graphics:  Device-1: AMD Ellesmere [Radeon RX 470/480/570/570X/580/580X/590] driver: amdgpu 
+           v: kernel bus ID: 01:00.0 chip ID: 1002:67df 
+           Display: x11 server: X.Org 1.20.9 driver: amdgpu,ati unloaded: fbdev,modesetting,vesa 
+           resolution: 1920x1080~60Hz 
+           OpenGL: 
+           renderer: Radeon RX 580 Series (POLARIS10 DRM 3.35.0 5.4.0-65-generic LLVM 11.0.0) 
+           v: 4.6 Mesa 20.2.6 direct render: Yes 
+Audio:     Device-1: Intel 100 Series/C230 Series Family HD Audio vendor: Gigabyte 
+           driver: snd_hda_intel v: kernel bus ID: 00:1f.3 chip ID: 8086:a170 
+           Device-2: AMD Ellesmere HDMI Audio [Radeon RX 470/480 / 570/580/590] 
+           driver: snd_hda_intel v: kernel bus ID: 01:00.1 chip ID: 1002:aaf0 
+           Sound Server: ALSA v: k5.4.0-65-generic 
+Network:   Device-1: Intel Ultimate N WiFi Link 5300 driver: iwlwifi v: kernel port: e000 
+           bus ID: 02:00.0 chip ID: 8086:4235 
+           IF: wlp2s0 state: down mac: <filter> 
+           Device-2: Qualcomm Atheros Killer E220x Gigabit Ethernet vendor: Gigabyte driver: alx 
+           v: kernel port: d000 bus ID: 0a:00.0 chip ID: 1969:e091 
+           IF: enp10s0 state: up speed: 1000 Mbps duplex: full mac: <filter> 
+Drives:    Local Storage: total: 2.73 TiB used: 26.41 GiB (0.9%) 
+           ID-1: /dev/sda vendor: Seagate model: BarraCuda SSD ZA250CM10002 size: 232.89 GiB 
+           speed: 6.0 Gb/s serial: <filter> 
+           ID-2: /dev/sdb vendor: Western Digital model: WD1003FZEX-00K3CA0 size: 931.51 GiB 
+           speed: 6.0 Gb/s serial: <filter> 
+           ID-3: /dev/sdc vendor: Seagate model: ST500DM002-1BD142 size: 460.95 GiB 
+           speed: 3.0 Gb/s serial: <filter> 
+           ID-4: /dev/sdd vendor: Seagate model: ST1000DM010-2EP102 size: 931.51 GiB 
+           speed: 6.0 Gb/s serial: <filter> 
+           ID-5: /dev/sde vendor: Gloway model: FER240GS3-S7 size: 223.57 GiB speed: 6.0 Gb/s 
+           serial: <filter> 
+           ID-6: /dev/sdf type: USB vendor: Generic model: Flash Disk size: 14.84 GiB 
+           serial: <filter> 
+Partition: ID-1: / size: 219.06 GiB used: 15.62 GiB (7.1%) fs: ext4 dev: /dev/sde1 
+USB:       Hub: 1-0:1 info: Full speed (or root) Hub ports: 16 rev: 2.0 chip ID: 1d6b:0002 
+           Device-1: 1-5:5 info: Alcor Micro Flash Drive type: Mass Storage driver: usb-storage 
+           rev: 2.0 chip ID: 058f:6387 
+           Device-2: 1-9:2 info: Microdia USB Keyboard type: Keyboard driver: hid-generic,usbhid 
+           rev: 2.0 chip ID: 0c45:7603 
+           Device-3: 1-14:3 info: Sunplus Innovation Optical Mouse type: Mouse 
+           driver: hid-generic,usbhid rev: 2.0 chip ID: 1bcf:0005 
+           Hub: 2-0:1 info: Full speed (or root) Hub ports: 10 rev: 3.0 chip ID: 1d6b:0003 
+           Hub: 3-0:1 info: Full speed (or root) Hub ports: 2 rev: 2.0 chip ID: 1d6b:0002 
+           Hub: 4-0:1 info: Full speed (or root) Hub ports: 2 rev: 3.1 chip ID: 1d6b:0003 
+Sensors:   System Temperatures: cpu: 43.5 C mobo: 29.8 C gpu: amdgpu temp: 39 C 
+           Fan Speeds (RPM): N/A gpu: amdgpu fan: 1290 
+Repos:     No active apt repos in: /etc/apt/sources.list 
+           Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list 
+           1: deb http: //packages.linuxmint.com ulyssa main upstream import backport #id:linuxmint_main
+           2: deb http: //archive.ubuntu.com/ubuntu focal main restricted universe multiverse
+           3: deb http: //archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse
+           4: deb http: //archive.ubuntu.com/ubuntu focal-backports main restricted universe multiverse
+           5: deb http: //security.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+           6: deb http: //archive.canonical.com/ubuntu/ focal partner
+Info:      Processes: 240 Uptime: 5m Memory: 31.20 GiB used: 1.62 GiB (5.2%) Init: systemd v: 245 
+           runlevel: 5 Compilers: gcc: 9.3.0 alt: 9 Client: Unknown python3.8 client inxi: 3.0.38 

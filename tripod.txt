@@ -1,0 +1,14 @@
+Tripod Expenses
+
+Labor Costs:
+  Welder 500 x 17.5 days     = 8,750
+  Helper 350 x 3    days     = 1,050
+
+Materials:
+  10mm def. bar 160 x 20pcs  = 3,200
+  fujiweld rod  138 x 9kg    = 1,242
+  chocker 1400      x 1      = 1,400
+  corona cement 215 x 6      = 1,290
+  g.i. pipe 3" 1965 x 1      = 1,965
+                              -------
+	                     P18,897

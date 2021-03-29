@@ -1,0 +1,1 @@
+var lotto="6/42", result=[];do{var digit=lotto.split("/"), pick=Math.floor(Math.random()*digit.pop())+1;if(!result.includes(pick)) result.push(pick);}while(result.length != digit.shift());console.log(result.join('-'));
