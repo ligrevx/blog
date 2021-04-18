@@ -1,13 +1,15 @@
-```
-  _    _                 __  __
- | |  (_)__ _ _ _ _____ _\ \/ /
- | |__| / _` | '_/ -_) V />  < 
- |____|_\__, |_| \___|\_//_/\_\
-        |___/                  
-
-```
-
 PGP: [0x2D3531528BD5369A](https://keys.openpgp.org/vks/v1/by-fingerprint/7A41E587C6DE888BB93289642D3531528BD5369A)
+
+---
+#### setting python env
+
+example setting python3 on the ff:
+
+`sudo ln -s /usr/bin/python3 /usr/bin/python`
+
+now you can use `#!/usr/bin/env python`
+
+---
 
 ---
 #### uniqueness using PHP
