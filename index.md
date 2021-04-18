@@ -11,16 +11,15 @@ now you can use `#!/usr/bin/env python`
 
 ---
 
----
 #### uniqueness using PHP
 I did the following benchmark where `$u` as `md5(time())` vs `md5(microtime())` vs `uniqid()` and my best choice was:
 
 ```php
 php > $dups = [];for($i=0;$i<100;$i++){ $u = md5(microtime()); if(!in_array($u, $dups)){array_push($dups, $u);}printf("%s:%s".PHP_EOL,$u,strlen($u)); }echo(count($dups));
 ```
----
 
 ---
+
 #### Simple way to find and kill process in Windows
 ```cmd
 C:\> wmic process where "name like 'auto%'" get name,processid
