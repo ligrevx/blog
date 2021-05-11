@@ -1,0 +1,24 @@
+Host ado.github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/adopisoft
+  IdentitiesOnly yes
+
+Host bohol.github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/bohol_xyz
+  IdentitiesOnly yes
+
+Host s87.me
+  hostname github.com
+  user git
+  IdentityFile ~/.ssh/s87_me
+  IdentitiesOnly yes
+
+Host calape.github.com
+  hostname github.com
+  user git
+  IdentityFile ~/.ssh/calape_net
+  IdentitiesOnly yes
+
