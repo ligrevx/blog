@@ -1,0 +1,3 @@
+curl -d '{ "jsonrpc": "2.0", "id": 1, "method": "call", "params": [ "00000000000000000000000000000000", "xapi.basic","open_dropbear",{} ] }' http://192.168.99.1/ubus
+scp breedweb.bin root@192.168.99.1
+ssh root@192.168.99.1 insmod breedweb.bin
