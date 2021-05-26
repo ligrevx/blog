@@ -6,6 +6,7 @@
 
 > it's never too late. don't stop learning.
 
+- https://breed.hackpascal.net/
 - https://openwrt.org/docs/techref/ubus
 - https://en.wikipedia.org/wiki/ESP8266
 - https://bitcoin-only.com/
