@@ -1,0 +1,1 @@
+- https://www.digikey.ph/product-detail/en/seeed-technology-co.,-ltd/102991184/1597-102991184-ND/10263931
