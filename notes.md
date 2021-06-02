@@ -1,11 +1,4 @@
-> always remember: education is everywhere, opportunity is rare.
-
-> heaven and earth will pass away, but my words will not pass away.
-
-> walang forever sa mundo
-
-> it's never too late. don't stop learning.
-
+- https://gource.io/
 - https://breed.hackpascal.net/
 - https://openwrt.org/docs/techref/ubus
 - https://en.wikipedia.org/wiki/ESP8266
