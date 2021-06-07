@@ -1,3 +1,4 @@
+- https://kb.sandisk.com/app/answers/detail/a_id/2520/~/sd/sdhc/sdxc-specifications-and-compatibility
 - https://gource.io/
 - https://breed.hackpascal.net/
 - https://openwrt.org/docs/techref/ubus
